@@ -4,7 +4,7 @@ namespace GameUnits
 {
     class SettlerUnit : Unit
     {
-        public constant override float Cost { get; } = 5;
+        public override float Cost { get; } = 5f;
 
         public SettlerUnit() : base(1, 3)
         {

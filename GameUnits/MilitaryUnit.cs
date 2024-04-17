@@ -12,7 +12,7 @@ namespace GameUnits
             }
             set
             {
-                base.Health -= value;
+                base.Health = value;
             }
         }
         public override float Cost

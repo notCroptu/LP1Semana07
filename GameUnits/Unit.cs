@@ -23,9 +23,9 @@ namespace GameUnits
         {
             Console.WriteLine($"{movement}");
         }
-        public virtual string ToString()
+        public override string ToString()
         {
-            return $"{this}: HP={Health} COST={Cost}";
+            return $"{GetType(). Name}: HP={Health} COST={Cost}";
         }
     }
 }
