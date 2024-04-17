@@ -19,5 +19,13 @@ namespace GameUnits
         {
             Console.WriteLine($"{vector.X * movement}, {vector.Y * movement}");
         }
+        public void Move()
+        {
+            Console.WriteLine($"{movement}");
+        }
+        public virtual string ToString()
+        {
+            return $"{this}: HP={Health} COST={Cost}";
+        }
     }
 }
