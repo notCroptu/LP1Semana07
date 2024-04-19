@@ -25,7 +25,7 @@ namespace GameUnits
         }
         public override string ToString()
         {
-            return $"{GetType(). Name}: HP={Health} COST={Cost}";
+            return $"{GetType(). Name}: HP={Health} COST={Cost:f2}";
         }
     }
 }
